@@ -64,8 +64,13 @@ def getSubscribeUrl():
         "GET", v2rayList[len(v2rayList)-1].replace('amp;',''), verify=False)
     clashTxt = requests.request(
         "GET", clashList[len(clashList)-1].replace('amp;',''), verify=False)
+
+    ssrTxt = requests.request(
+        "GET", 'https://raw.fastgit.org/Leon406/Sub/master/sub/share/ssr', verify=False)
+
     print(v2rayList)
     print(clashList)
+    print(ssrTxt)
     dirs = './subscribe'
     if not os.path.exists(dirs):
         os.makedirs(dirs)
@@ -73,7 +78,9 @@ def getSubscribeUrl():
         f.write(v2rayTxt.text)
     day = time.strftime('%Y.%m.%d',time.localtime(time.time()))
     with open(dirs + '/clash.yml', 'w') as f:
-        f.write(clashTxt.text.replace('https://www.mattkaydiary.com',day))
+        f.write(clashTxt.text.replace('https://www.mattkaydiary.com',day))        
+    with open(dirs + '/ssr.txt', 'w') as f:
+        f.write(ssrTxt.text.replace('https://www.mattkaydiary.com',day))
 #         f.write(clashTxt.text.replace('https://www.mattkaydiary.com','仅供学习，请24小时内删除'))
 
 
