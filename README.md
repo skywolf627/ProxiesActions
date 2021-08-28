@@ -2,7 +2,7 @@
 通过GitHub的actions 自动采集节点 
 自动生成订阅信息
 
-订阅内容自动更新在仓库 subscribe 目录下的 clash.yml 和 v2ray.txt 中
+订阅内容自动更新在仓库 subscribe 目录下
 然后PC端/手机端根据自己的软件支持的格式，订阅对应的链接即可
 
 比如clash.yml的订阅链接为https://raw.fastgit.org/skywolf627/VmessActions/main/subscribe/clash.yml  
@@ -14,14 +14,23 @@ clash订阅地址
 ```
  https://raw.fastgit.org/skywolf627/VmessActions/main/subscribe/clash.yml
 ```
-v2ray订阅地址 
+ssr订阅地址 
 ```
-https://raw.fastgit.org/skywolf627/VmessActions/main/subscribe/v2ray.txt
+https://raw.fastgit.org/skywolf627/VmessActions/main/subscribe/ssr.txt
 ```
+> **以此类推，根据后缀名自行拼接链接**
 
 
 
-目前抓取的节点速度看youtubu 4k 不卡，电报基本秒开。
+## 使用软件
+
+| 平台                    | 软件                                                         | 支持协议                                                     |
+| ----------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Windows                 | [Clash CFW  **(推荐)**](https://github.com/Fndroid/clash_for_windows_pkg/releases) | SS、SSR、Trojan、Vmess、VLESS                                |
+| Windows                 | [Clash.Net](https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/) | SS、SSR、Trojan、Vmess、VLESS                                |
+| Windows                 | [WinXray](https://github.com/TheMRLL/winxray/releases)       | SS、SSR、Trojan、V2ray（Vmess、VLESS）Xray                   |
+| macOS                   | [ClashX](https://github.com/yichengchen/clashX/releases)     | SS、SSR、Trojan、V2ray                                       |
+| Android                 | [ClashForAndroid  **(推荐)**](https://github.com/Kr328/ClashForAndroid/releases) | SS、SSR、Trojan、Vmess、VLESS                                |
 
 
 订阅节点仅作学习交流用，用于查找资料，学习知识，不要做任何违法行为。
