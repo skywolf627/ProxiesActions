@@ -59,8 +59,10 @@ jobs:
       run: |                 
          git config --local user.email "skywolf627@qq.com"
          git config --local user.name "skywolf627"
-         git add subscribe/v2ray.txt
          git add subscribe/clash.yml
+         git add subscribe/ss.txt
+         git add subscribe/ssr.txt
+         git add subscribe/trojan.txt
          git commit -m "更新订阅链接"
     - name: 推送更改
       uses:  ad-m/github-push-action@master
