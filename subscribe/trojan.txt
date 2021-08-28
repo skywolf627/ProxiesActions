@@ -1,0 +1,14 @@
+proxies:
+- {"name":"2021.08.28_-🇸🇬SG_884","server":"az.spaceseven.xyz","type":"trojan","port":27698,"password":"3785d69a-c372-35ac-9b97-c11fab973489","sni":"sg02.spaceseven.xyz"}
+- {"name":"2021.08.28_-🇭🇰HK_888","server":"az.spaceseven.xyz","type":"trojan","port":59000,"password":"3785d69a-c372-35ac-9b97-c11fab973489","sni":"hk07.spaceseven.xyz"}
+- {"name":"2021.08.28_-🇭🇰HK_889","server":"az.spaceseven.xyz","type":"trojan","port":62520,"password":"3785d69a-c372-35ac-9b97-c11fab973489","sni":"hk09.spaceseven.xyz"}
+- {"name":"2021.08.28_-🇭🇰HK_890","server":"t5.ssrsub.one","type":"trojan","port":8443,"password":"18395e1a-0bf7-42da-a264-4de396141e83","sni":"t5.ssrsub.one","udp":true}
+- {"name":"2021.08.28_-🇸🇬SG_893","server":"sg03.spaceseven.xyz","type":"trojan","port":7891,"password":"3785d69a-c372-35ac-9b97-c11fab973489","sni":"sg03.spaceseven.xyz"}
+- {"name":"2021.08.28_-🇭🇰HK_894","server":"t5.ssrsub.one","type":"trojan","port":8443,"password":"310d9ce0-1903-4b5a-99eb-bee8dc30e8ec","sni":"t5.ssrsub.one","udp":true}
+- {"name":"2021.08.28_-🇸🇬SG_895","server":"sg04.spaceseven.xyz","type":"trojan","port":7891,"password":"3785d69a-c372-35ac-9b97-c11fab973489","sni":"sg04.spaceseven.xyz"}
+- {"name":"2021.08.28_-🇭🇰HK_896","server":"hk11.spaceseven.xyz","type":"trojan","port":7891,"password":"3785d69a-c372-35ac-9b97-c11fab973489","sni":"hk11.spaceseven.xyz"}
+- {"name":"2021.08.28_-🇭🇰HK_897","server":"hk12.spaceseven.xyz","type":"trojan","port":7891,"password":"3785d69a-c372-35ac-9b97-c11fab973489","sni":"hk12.spaceseven.xyz"}
+- {"name":"2021.08.28_-🇭🇰HK_899","server":"hk13.spaceseven.xyz","type":"trojan","port":7891,"password":"3785d69a-c372-35ac-9b97-c11fab973489","sni":"hk13.spaceseven.xyz"}
+- {"name":"2021.08.28_🇭🇰 HK-🇭🇰HK_4525","server":"kaizen-hk-2.cn0.me","type":"trojan","country":"🇭🇰 HK","port":443,"password":"18e513fe-f7f4-353d-84ca-bc9646fb2528mielink","skip-cert-verify":true,"udp":true}
+- {"name":"2021.08.28_🇭🇰 HK-🇭🇰HK_4526","server":"kaizen-hk-4.cn0.me","type":"trojan","country":"🇭🇰 HK","port":443,"password":"18e513fe-f7f4-353d-84ca-bc9646fb2528mielink","skip-cert-verify":true,"udp":true}
+- {"name":"🇸🇬SG_6080","server":"188.166.242.117","type":"trojan","country":"🇸🇬SG","port":4443,"password":"7x42LetRa0","skip-cert-verify":true,"udp":true}
