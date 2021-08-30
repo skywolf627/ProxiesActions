@@ -1,7 +1,5 @@
 proxies:
-- {"name":"2021.08.29_-🇭🇰HK_892","server":"t5.ssrsub.one","type":"trojan","port":8443,"password":"18395e1a-0bf7-42da-a264-4de396141e83","sni":"t5.ssrsub.one","udp":true}
-- {"name":"2021.08.29_-🇭🇰HK_893","server":"t5.ssrsub.one","type":"trojan","port":8443,"password":"310d9ce0-1903-4b5a-99eb-bee8dc30e8ec","sni":"t5.ssrsub.one","udp":true}
-- {"name":"2021.08.29_🇭🇰 HK-🇭🇰HK_4609","server":"kaizen-hk-4.cn0.me","type":"trojan","country":"🇭🇰 HK","port":443,"password":"18e513fe-f7f4-353d-84ca-bc9646fb2528mielink","skip-cert-verify":true,"udp":true}
-- {"name":"2021.08.29_🇭🇰 HK-🇭🇰HK_4610","server":"kaizen-hk-2.cn0.me","type":"trojan","country":"🇭🇰 HK","port":443,"password":"18e513fe-f7f4-353d-84ca-bc9646fb2528mielink","skip-cert-verify":true,"udp":true}
-- {"name":"🇸🇬SG_6130","server":"188.166.242.117","type":"trojan","country":"🇸🇬SG","port":4443,"password":"7x42LetRa0","skip-cert-verify":true,"udp":true}
-- {"name":"2021.08.29_🇺🇸US-🇭🇰HK_7440","server":"agals01.cloudddns.icu","type":"trojan","country":"🇺🇸US","port":123,"password":"d32d8723-5983-3ecc-8e9f-8b57bab1a584","skip-cert-verify":true,"udp":true}
+- {"name":"2021.08.30_🇭🇰 HK-🇭🇰HK_4476","server":"kaizen-hk-2.cn0.me","type":"trojan","country":"🇭🇰 HK","port":443,"password":"18e513fe-f7f4-353d-84ca-bc9646fb2528mielink","skip-cert-verify":true,"udp":true}
+- {"name":"2021.08.30_🇭🇰 HK-🇭🇰HK_4477","server":"kaizen-hk-4.cn0.me","type":"trojan","country":"🇭🇰 HK","port":443,"password":"18e513fe-f7f4-353d-84ca-bc9646fb2528mielink","skip-cert-verify":true,"udp":true}
+- {"name":"🇸🇬SG_6013","server":"188.166.242.117","type":"trojan","country":"🇸🇬SG","port":4443,"password":"7x42LetRa0","skip-cert-verify":true,"udp":true}
+- {"name":"2021.08.30_🇺🇸US-🇭🇰HK_7396","server":"agals01.cloudddns.icu","type":"trojan","country":"🇺🇸US","port":123,"password":"d32d8723-5983-3ecc-8e9f-8b57bab1a584","skip-cert-verify":true,"udp":true}
