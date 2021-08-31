@@ -38,7 +38,7 @@ proxy-groups:
       - 🔰 选择节点
       - DIRECT
   - name: 🇨🇳 国内网站
-    type: selectt
+    type: select
     proxies:
       - DIRECT
       - 🔰 选择节点
