@@ -1,10 +1,4 @@
 proxies:
-- {"name":"2021.08.30_-🇭🇰HK_862","server":"t5.ssrsub.one","type":"trojan","port":8443,"password":"310d9ce0-1903-4b5a-99eb-bee8dc30e8ec","sni":"t5.ssrsub.one","udp":true}
-- {"name":"2021.08.30_-🇭🇰HK_873","server":"t5.ssrsub.one","type":"trojan","port":8443,"password":"18395e1a-0bf7-42da-a264-4de396141e83","sni":"t5.ssrsub.one","udp":true}
-- {"name":"2021.08.30_🇨🇳CN-🇹🇼TW_2115","server":"49bda1d.nb.gladns.com","type":"trojan","country":"🇨🇳CN","port":3389,"password":"42b89f5ed12eab28","skip-cert-verify":true,"udp":true}
-- {"name":"2021.08.30_🇨🇳CN-🇹🇼TW_2116","server":"49bda1d.nd.gladns.com","type":"trojan","country":"🇨🇳CN","port":3389,"password":"42b89f5ed12eab28","skip-cert-verify":true,"udp":true}
-- {"name":"2021.08.30_🇨🇳CN-🇹🇼TW_2117","server":"49bda1d.ne.gladns.com","type":"trojan","country":"🇨🇳CN","port":3389,"password":"42b89f5ed12eab28","skip-cert-verify":true,"udp":true}
-- {"name":"2021.08.30_🇭🇰 HK-🇭🇰HK_4547","server":"kaizen-hk-2.cn0.me","type":"trojan","country":"🇭🇰 HK","port":443,"password":"18e513fe-f7f4-353d-84ca-bc9646fb2528mielink","skip-cert-verify":true,"udp":true}
-- {"name":"2021.08.30_🇭🇰 HK-🇭🇰HK_4548","server":"kaizen-hk-4.cn0.me","type":"trojan","country":"🇭🇰 HK","port":443,"password":"18e513fe-f7f4-353d-84ca-bc9646fb2528mielink","skip-cert-verify":true,"udp":true}
-- {"name":"🇸🇬SG_6118","server":"188.166.242.117","type":"trojan","country":"🇸🇬SG","port":4443,"password":"7x42LetRa0","skip-cert-verify":true,"udp":true}
-- {"name":"2021.08.30_🇺🇸US-🇭🇰HK_7488","server":"agals01.cloudddns.icu","type":"trojan","country":"🇺🇸US","port":123,"password":"d32d8723-5983-3ecc-8e9f-8b57bab1a584","skip-cert-verify":true,"udp":true}
+- {"name":"2021.08.31_🇭🇰 HK-🇭🇰HK_4563","server":"kaizen-hk-2.cn0.me","type":"trojan","country":"🇭🇰 HK","port":443,"password":"18e513fe-f7f4-353d-84ca-bc9646fb2528mielink","skip-cert-verify":true,"udp":true}
+- {"name":"2021.08.31_🇭🇰 HK-🇭🇰HK_4564","server":"kaizen-hk-4.cn0.me","type":"trojan","country":"🇭🇰 HK","port":443,"password":"18e513fe-f7f4-353d-84ca-bc9646fb2528mielink","skip-cert-verify":true,"udp":true}
+- {"name":"🇸🇬SG_6197","server":"188.166.242.117","type":"trojan","country":"🇸🇬SG","port":4443,"password":"7x42LetRa0","skip-cert-verify":true,"udp":true}
