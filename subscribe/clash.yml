@@ -51,7 +51,7 @@ proxy-groups:
   - name: 🐟 漏网之鱼
     type: select
     proxies:
-      - 🔰 tes选择节点
+      - 🔰 选择节点
       - DIRECT
 rules:
  - DOMAIN,upos-hz-mirrorakam.akamaized.net,🌏 爱奇艺&哔哩哔哩
