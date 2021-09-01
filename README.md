@@ -15,6 +15,9 @@ clash软件订阅地址
  https://raw.fastgit.org/skywolf627/VmessActions/main/subscribe/clash.yml
 ```
 
+
+> **txt文件为节点信息，yml文件为clash软件的订阅文件。**
+
 > **因为总所周知的原因，节点可能随时BB，且用且珍惜。**
 
 > **订阅地址如果出现问题，我会抽空改的，瑞斯拜~。**
