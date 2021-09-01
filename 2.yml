@@ -1,23 +1,23 @@
-allow-lan: false 
-mode: rule 
-log-level: info 
-external-controller: 127.0.0.1:9090 
-proxies: 
-proxy-groups: 
-  - name: 全局选择 
-    type: select 
-    proxies: 
-      - 全部代理 
-  - name: 全部代理 
-    type: select 
-    proxies: 
-      - all  
-proxy-providers: 
-    cn: 
-      type: http 
-      url: "https://raw.fastgit.org/skywolf627/VmessActions/main/subscribe/clash.yml" 
-      path: etproxypool.ga/provider-cn.yaml 
-      health-check: 
-        enable: true 
-        interval: 600 
-        url: http://www.gstatic.com/generate_204 
+allow-lan: false
+mode: rule
+log-level: info
+external-controller: 127.0.0.1:9090
+proxies:
+proxy-groups:
+  - name: 全局选择
+    type: select
+    proxies:
+      - 全部代理
+  - name: 全部代理
+    type: select
+    proxies:
+      - all
+proxy-providers:
+  all:
+    type: http
+    url: "https://raw.fastgit.org/skywolf627/VmessActions/main/subscribe/clash.yml"
+    path: etproxypool.ga/provider-cn.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
