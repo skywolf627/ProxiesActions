@@ -18,7 +18,7 @@ https://raw.githubusercontent.com/skywolf627/VmessActions/main/subscribe/clash.y
 >优点：国内能正常拉取  
 >缺点：有缓存，更新不是实时的，需要等一段时间才会和原版文件同步（几分钟到几十分钟不等）
 ```
-https://raw.fastgit.org/skywolf627/VmessActions/main/subscribe/clash.yml
+https://raw.fastgit.org/skywolf627/VmessActions/main/subscribe/clash-mirror.yml
 ```
 ---
 
