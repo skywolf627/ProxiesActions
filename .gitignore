@@ -2,3 +2,4 @@ config.json
 log.txt
 __pycache__
 __pycache__
+__pycache__/utils.cpython-39.pyc
