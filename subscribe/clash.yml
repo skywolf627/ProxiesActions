@@ -58,7 +58,7 @@ proxy-groups:
 proxy-providers:
   all:
     type: http
-    url: "https://raw.fastgit.org/skywolf627/VmessActions/main/subscribe/vmess.txt"
+    url: "https://raw.githubusercontent.com/skywolf627/VmessActions/main/subscribe/vmess.txt"
     path: etproxypool.ga/provider-cn.yaml
     health-check:
       enable: true
