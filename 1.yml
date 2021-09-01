@@ -11,19 +11,9 @@ proxy-groups:
   - name: 全部代理 
     type: select 
     proxies: 
-      - 🇨🇳 科学
-  - name: 选择节点 
-    type: select 
-    use: 
-      - cn 
-  - name: 🇨🇳 科学 
-    type: url-test 
-    url: 'http://www.gstatic.com/generate_204' 
-    interval: 300 
-    use: 
-      - cn    
+      - 🇨🇳 
 proxy-providers: 
-    cn: 
+    🇨🇳: 
       type: http 
       url: "https://raw.fastgit.org/skywolf627/VmessActions/main/subscribe/clash.yml" 
       path: etproxypool.ga/provider-cn.yaml 
