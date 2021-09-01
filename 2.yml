@@ -9,9 +9,11 @@ proxy-groups:
     proxies:
       - 全部代理
   - name: 全部代理
-    type: select
-    proxies:
-      - all
+    type: url-test
+    url: 'http://www.gstatic.com/generate_204' 
+    interval: 300 
+    use: 
+      - all 
 proxy-providers:
   all:
     type: http
