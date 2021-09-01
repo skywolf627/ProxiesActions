@@ -11,7 +11,7 @@ proxy-groups:
   - name: 全部代理 
     type: select 
     proxies: 
-      - 🇨🇳  
+      - all  
 proxy-providers: 
     cn: 
       type: http 
