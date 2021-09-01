@@ -11,9 +11,9 @@ proxy-groups:
   - name: 全部代理 
     type: select 
     proxies: 
-      - 🇨🇳 
+      - all  
 proxy-providers: 
-    🇨🇳: 
+    all: 
       type: http 
       url: "https://raw.fastgit.org/skywolf627/VmessActions/main/subscribe/clash.yml" 
       path: etproxypool.ga/provider-cn.yaml 
