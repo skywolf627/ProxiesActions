@@ -59,7 +59,7 @@ jobs:
       run: |                 
          git config --local user.email "skywolf627@qq.com"
          git config --local user.name "skywolf627"
-         git add subscribe/clash.txt
+         git add subscribe/vmess.txt
          git add subscribe/ss.txt
          git add subscribe/ssr.txt
          git add subscribe/trojan.txt
