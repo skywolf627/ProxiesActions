@@ -55,7 +55,6 @@ proxy-groups:
     proxies:
       - REJECT
       - DIRECT
-      - 选择节点
   - name: 🐟 漏网之鱼
     type: select
     proxies:
@@ -65,7 +64,7 @@ proxy-providers:
   all:
     type: http
     url: "https://raw.fastgit.org/skywolf627/VmessActions/main/subscribe/vmess.txt"
-    path: etproxypool.ga/provider-cn.yaml
+    path: skywolf627.github.io/provider-all.yaml
     health-check:
       enable: true
       interval: 600
