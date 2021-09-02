@@ -18,6 +18,8 @@ https://raw.githubusercontent.com/skywolf627/VmessActions/main/subscribe/clash.y
 ```
 https://raw.fastgit.org/skywolf627/VmessActions/main/subscribe/clash-mirror.yml
 ```
+   
+建议两个地址都订阅，哪个能用用哪个
   
 ## 使用软件
 
