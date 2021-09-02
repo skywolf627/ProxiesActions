@@ -65,6 +65,7 @@ proxy-providers:
     type: http
     url: "https://raw.fastgit.org/skywolf627/VmessActions/main/subscribe/vmess.txt"
     path: skywolf627.github.io/provider-all.yaml
+    interval: 43200
     health-check:
       enable: true
       interval: 600
