@@ -21,6 +21,17 @@ https://raw.fastgit.org/skywolf627/VmessActions/main/subscribe/clash-mirror.yml
    
 建议两个地址都订阅，哪个能用用哪个
   
+  
+    
+## 非CLASH软件（WinXray/其它）订阅地址
+
+>**镜像**  
+>注意：因为采用clash的providers方式加载节点和规则，所以非clash软件无法拉去节点。可以尝试使用此订阅链接  
+```
+https://raw.fastgit.org/skywolf627/VmessActions/main/subscribe/vmess.txt
+```
+   
+  
 ## 使用软件
 
 | 平台                    | 软件                                                         | 支持协议                                                     |
@@ -30,6 +41,7 @@ https://raw.fastgit.org/skywolf627/VmessActions/main/subscribe/clash-mirror.yml
 | Windows                 | [WinXray](https://github.com/TheMRLL/winxray/releases)       | SS、SSR、Trojan、V2ray（Vmess、VLESS）Xray                   |
 | macOS                   | [ClashX  **(推荐)**](https://github.com/yichengchen/clashX/releases)     | SS、SSR、Trojan、V2ray                                       |
 | Android                 | [ClashForAndroid  **(推荐)**](https://github.com/Kr328/ClashForAndroid/releases) | SS、SSR、Trojan、Vmess、VLESS                                |
+
 
 ## 免责申明
 #### 订阅节点仅作学习交流用，用于查找资料，学习知识，不要做任何违法行为。  
