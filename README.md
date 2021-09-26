@@ -26,7 +26,7 @@ https://raw.fastgit.org/skywolf627/VmessActions/main/subscribe/clash-mirror.yml
 ## 非CLASH软件（WinXray/其它）订阅地址
 
 >**镜像**  
->注意：因为采用clash的providers方式加载节点和规则，所以非clash软件无法拉去节点。可以尝试使用此订阅链接  
+>注意：因为采用clash的providers方式加载节点和规则，所以非clash软件无法拉取节点。可以尝试使用此订阅链接  
 ```
 https://raw.fastgit.org/skywolf627/VmessActions/main/subscribe/vmess.txt
 ```
@@ -47,3 +47,9 @@ https://raw.fastgit.org/skywolf627/VmessActions/main/subscribe/vmess.txt
 #### 订阅节点仅作学习交流用，用于查找资料，学习知识，不要做任何违法行为。  
 #### 所有资源均来自互联网，非盈利目的，仅供大家交流学习使用，出现违法问题概不负责。
 
+## 他们都STAR了
+[![Stargazers repo roster for @skywolf627/VmessActions](https://reporoster.com/stars/skywolf627/VmessActions)](https://github.com/skywolf627/VmessActions/stargazers)
+  
+
+## 他们都FORK了
+[![Forkers repo roster for @skywolf627/VmessActions](https://reporoster.com/forks/skywolf627/VmessActions)](https://github.com/skywolf627/VmessActions/network/members)
