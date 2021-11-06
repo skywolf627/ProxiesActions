@@ -1,4 +1,2 @@
 proxies:
-- {"name":"2021.11.06_-🇺🇸US_20","server":"v1.ssrsub.com","type":"vmess","port":166,"udp":true,"uuid":"d8aacec8-e256-427b-a927-0c6013f6595b","alterId":0,"cipher":"auto","network":"ws","ws-path":"/ssrsub","ws-headers":{"Host":"v1.ssrsub.com"},"http-opts":{},"h2-opts":{},"tls":true}
-- {"name":"2021.11.06_-🇺🇸US_21","server":"v1.ssrsub.com","type":"vmess","port":166,"udp":true,"uuid":"8962d993-c7ff-4768-9dce-e2e8273f73dc","alterId":0,"cipher":"auto","network":"ws","ws-path":"/ssrsub","ws-headers":{"Host":"v1.ssrsub.com"},"http-opts":{},"h2-opts":{},"tls":true}
-- {"name":"🇺🇸US_659","server":"18.236.146.125","type":"vmess","country":"🇺🇸US","port":8888,"uuid":"67f90cf4-785f-42dd-8d63-e27918321fb2","alterId":1,"cipher":"auto","network":"ws","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"🇸🇬SG_652","server":"165.22.61.210","type":"vmess","country":"🇸🇬SG","port":21888,"uuid":"67f90cf4-785f-42dd-8d63-e27918321fb2","alterId":1,"cipher":"auto","network":"ws","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
