@@ -48,8 +48,8 @@ https://raw.fastgit.org/skywolf627/VmessActions/main/subscribe/vmess.txt
 #### 所有资源均来自互联网，非盈利目的，仅供大家交流学习使用，出现违法问题概不负责。
 
 ## 他们都STAR了
-[![Stargazers repo roster for @skywolf627/VmessActions](https://reporoster.com/stars/skywolf627/VmessActions)](https://github.com/skywolf627/VmessActions/stargazers)
+[![Stargazers repo roster for @skywolf627/ProxiesActions](https://reporoster.com/stars/skywolf627/ProxiesActions)](https://github.com/skywolf627/ProxiesActions/stargazers)
   
 
 ## 他们都FORK了
-[![Forkers repo roster for @skywolf627/VmessActions](https://reporoster.com/forks/skywolf627/VmessActions)](https://github.com/skywolf627/VmessActions/network/members)
+[![Forkers repo roster for @skywolf627/ProxiesActions](https://reporoster.com/forks/skywolf627/ProxiesActions)](https://github.com/skywolf627/ProxiesActions/network/members)
