@@ -1,2 +1,5 @@
 proxies:
-- {"name":"NULL","server":"NULL","port":11708,"type":"ssr","country":"NULL","password":"sEscPBiAD9K$\u0026@79","cipher":"aes-256-cfb","protocol":"origin","protocol_param":"NULL","obfs":"http_simple"}
+- {"name":"2021.11.21_-🇷🇺RU_15","server":"v4.ssrsub.com","type":"vmess","port":443,"udp":true,"uuid":"0d0a53dd-6a0f-47ac-8d0c-6eca674926b2","alterId":0,"cipher":"auto","network":"ws","ws-path":"/ssrsub","ws-headers":{"Host":"v4.ssrsub.com"},"http-opts":{},"h2-opts":{},"tls":true}
+- {"name":"2021.11.21_-🇷🇺RU_16","server":"v4.ssrsub.com","type":"vmess","port":443,"udp":true,"uuid":"a0daa9d9-6257-4ae9-9959-ccfb993f122c","alterId":0,"cipher":"auto","network":"ws","ws-path":"/ssrsub","ws-headers":{"Host":"v4.ssrsub.com"},"http-opts":{},"h2-opts":{},"tls":true}
+- {"name":"🇯🇵JP_209","server":"203.137.160.157","type":"trojan","country":"🇯🇵JP","port":443,"password":"18e513fe-f7f4-353d-84ca-bc9646fb2528mielink","sni":"t.me/vpnhat","skip-cert-verify":true,"udp":true}
+- {"name":"🇯🇵JP_210","server":"210.129.15.11","type":"trojan","country":"🇯🇵JP","port":443,"password":"18e513fe-f7f4-353d-84ca-bc9646fb2528mielink","sni":"t.me/vpnhat","skip-cert-verify":true,"udp":true}
