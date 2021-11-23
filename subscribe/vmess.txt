@@ -1,4 +1,7 @@
 proxies:
-- {"name":"2021.11.22_🇦🇺AU-🇺🇸US_10","server":"1.0.0.0","type":"vmess","country":"🇦🇺AU","port":443,"uuid":"4d88f6a2-aaa9-42b6-afc4-227f89974119","alterId":0,"cipher":"auto","network":"ws","ws-path":"/The-Great-Awakening_vws","servername":"vincent-jackson2021.ga","ws-headers":{"HOST":"vincent-jackson2021.ga"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-- {"name":"2021.11.22_🇷🇺RU-🇷🇺RU_23","server":"s.22xr.cn","type":"vmess","country":"🇷🇺RU","port":36699,"uuid":"55b6abf4-fbdc-488b-fd00-c665521356ef","alterId":0,"cipher":"auto","network":"tcp","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-- {"name":"🇺🇸US_24","server":"67.198.205.185","type":"trojan","country":"🇺🇸US","port":443,"password":"18e513fe-f7f4-353d-84ca-bc9646fb2528mielink","skip-cert-verify":true,"udp":true}
+- {"name":"2021.11.23_-🇷🇺RU_25","server":"t1.ssrsub.com","type":"trojan","port":11033,"password":"0d0a53dd-6a0f-47ac-8d0c-6eca674926b2","sni":"t1.ssrsub.com","udp":true}
+- {"name":"2021.11.23_-🇨🇦CA_26","server":"t7.ssrsub.com","type":"trojan","port":11033,"password":"0d0a53dd-6a0f-47ac-8d0c-6eca674926b2","sni":"t7.ssrsub.com","udp":true}
+- {"name":"2021.11.23_-🇨🇦CA_27","server":"t7.ssrsub.com","type":"trojan","port":11033,"password":"a0daa9d9-6257-4ae9-9959-ccfb993f122c","sni":"t7.ssrsub.com","udp":true}
+- {"name":"2021.11.23_-🇷🇺RU_28","server":"t1.ssrsub.com","type":"trojan","port":11033,"password":"a0daa9d9-6257-4ae9-9959-ccfb993f122c","sni":"t1.ssrsub.com","udp":true}
+- {"name":"2021.11.23_🇳🇱NL-🇺🇸US_35","server":"kr3.futi.online","type":"vmess","country":"🇳🇱NL","port":2053,"uuid":"0cab950b-4c7b-4215-836f-c7d46f447eb1","alterId":1,"cipher":"auto","network":"ws","ws-path":"/","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
+- {"name":"🇺🇸US_36","server":"143.198.205.67","type":"vmess","country":"🇺🇸US","port":80,"uuid":"69a758d2-542a-402e-8ed2-0e341836eb37","alterId":0,"cipher":"auto","network":"ws","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
