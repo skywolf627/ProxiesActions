@@ -1,2 +1,2 @@
 proxies:
-- {"name":"🇬🇧GB_12","server":"45.145.74.225","type":"vmess","country":"🇬🇧GB","port":33999,"uuid":"300c505b-c09d-4e2b-f4ff-f522f8c576bf","alterId":128,"cipher":"auto","network":"ws","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"2021.11.26_🇬🇧GB-🇬🇧GB_11","server":"italy-milan.mah3Hoet.com","type":"vmess","country":"🇬🇧GB","port":443,"uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","network":"ws","ws-path":"/ws","servername":"italy-milan.mah3Hoet.com","ws-headers":{"HOST":"italy-milan.mah3Hoet.com"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
