@@ -1,2 +1,3 @@
 proxies:
-- {"name":"2021.11.28_🇯🇵JP-🇯🇵JP_08","server":"jp1.futi.online","type":"vmess","country":"🇯🇵JP","port":2053,"uuid":"e60a3ed8-6620-4fce-b926-60af2c693f3f","alterId":1,"cipher":"auto","network":"ws","ws-path":"/","servername":"jp1.futi.online","ws-headers":{"HOST":"jp1.futi.online"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
+- {"name":"2021.11.29_-🇨🇦CA_04","server":"t6.ssrsub.com","type":"trojan","port":21033,"password":"1ed0dd9b-7c66-4738-be47-8e543b2126e4","sni":"t6.ssrsub.com","udp":true}
+- {"name":"🇺🇸US_24","server":"107.173.165.223","type":"vmess","country":"🇺🇸US","port":80,"uuid":"379acc51-024c-4c31-965b-324c8c99167a","alterId":0,"cipher":"auto","network":"ws","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
