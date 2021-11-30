@@ -1,4 +1,2 @@
 proxies:
-- {"name":"🇲🇾MY_09","server":"shai7ein.com","type":"vmess","country":"🇲🇾MY","port":443,"uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","network":"ws","ws-path":"/ws","servername":"shai7ein.com","ws-headers":{"HOST":"shai7ein.com"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-- {"name":"🇺🇸US_21","server":"137.184.184.78","type":"vmess","country":"🇺🇸US","port":2052,"uuid":"5580bd79-ba49-3f67-a710-5b917bdac2d8","alterId":2,"cipher":"auto","network":"ws","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-- {"name":"🇺🇸US_22","server":"98.126.213.18","type":"trojan","country":"🇺🇸US","port":443,"password":"18e513fe-f7f4-353d-84ca-bc9646fb2528mielink","sni":"t.me/vpnhat","skip-cert-verify":true,"udp":true}
+- {"name":"2021.11.30_🇬🇧GB-🇬🇧GB_10","server":"us1nhg-node.aiqiche123.com","type":"vmess","country":"🇬🇧GB","port":13723,"uuid":"a90597c1-bab3-4217-ad6f-0838675c8634","alterId":10,"cipher":"auto","network":"ws","ws-path":"ray","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
