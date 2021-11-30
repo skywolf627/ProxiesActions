@@ -1,2 +1,2 @@
 proxies:
-- {"name":"2021.11.30_🇬🇧GB-🇬🇧GB_10","server":"us1nhg-node.aiqiche123.com","type":"vmess","country":"🇬🇧GB","port":13723,"uuid":"a90597c1-bab3-4217-ad6f-0838675c8634","alterId":10,"cipher":"auto","network":"ws","ws-path":"ray","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
+- {"name":"NULL","server":"NULL","port":11708,"type":"ssr","country":"NULL","password":"sEscPBiAD9K$\u0026@79","cipher":"aes-256-cfb","protocol":"origin","protocol_param":"NULL","obfs":"http_simple"}
