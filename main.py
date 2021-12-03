@@ -16,7 +16,7 @@ def main(event, context):
     utils.initLog('log.txt')
     utils.clearLog()
     savePoint(
-        'https://etproxypool.ga/clash/proxies?nc=CN&speed=30&type=vmess,trojan', 'vmess.txt')
+        'https://hello.stgod.com/clash/proxies?nc=CN&type=vmess,trojan', 'vmess.txt')
 
     # savePoint(
     #     'https://etproxypool.ga/clash/proxies?nc=CN&speed=30&type=ss', 'ss.txt')
@@ -39,7 +39,7 @@ def savePoint(url, name):
         if not os.path.exists(dirs):
             os.makedirs(dirs)
         with open(dirs + '/' + name, 'w', encoding='utf-8') as f:
-            f.write(resp.text.replace('Relay_', day+'_'))
+            f.write(resp.text.replace(' ', day+'_'))
             print(name+'生成成功')
 
 
