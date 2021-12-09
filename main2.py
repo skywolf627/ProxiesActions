@@ -58,9 +58,9 @@ def getSubscribeUrl():
     rss = feedparser.parse('http://feeds.feedburner.com/mattkaydiary/pZjG')
     current = rss["entries"][0]
     v2rayList = re.findall(
-        r"v2ray\(若无法更新请开启代理后再拉取\)：(.+?)</div>", rss["entries"][0]["summary"])
+        r"v2ray\(请开启代理后再拉取\)：(.+?)</div>", rss["entries"][0]["summary"])
     clashList = re.findall(
-        r"clash\(若无法更新请开启代理后再拉取\)：(.+?)</div>", rss["entries"][0]["summary"])
+        r"clash\(请开启代理后再拉取\)：(.+?)</div>", rss["entries"][0]["summary"])
     v2rayTxt = requests.request(
         "GET", v2rayList[len(v2rayList)-1].replace('amp;',''), verify=False)
     clashTxt = requests.request(
