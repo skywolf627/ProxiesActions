@@ -57,31 +57,31 @@ def getFeeds():
 def getSubscribeUrl():
     rss = feedparser.parse('http://feeds.feedburner.com/mattkaydiary/pZjG')
     current = rss["entries"][0]
-    v2rayList = re.findall(
-        r"v2ray\(请开启代理后再拉取\)：(.+?)</div>", rss["entries"][0]["summary"])
+#     v2rayList = re.findall(
+#         r"v2ray\(请开启代理后再拉取\)：(.+?)</div>", rss["entries"][0]["summary"])
     clashList = re.findall(
         r"clash\(请开启代理后再拉取\)：(.+?)</div>", rss["entries"][0]["summary"])
-    v2rayTxt = requests.request(
-        "GET", v2rayList[len(v2rayList)-1].replace('amp;',''), verify=False)
+#     v2rayTxt = requests.request(
+#         "GET", v2rayList[len(v2rayList)-1].replace('amp;',''), verify=False)
     clashTxt = requests.request(
         "GET", clashList[len(clashList)-1].replace('amp;',''), verify=False)
 
-    ssrTxt = requests.request(
-        "GET", 'https://raw.fastgit.org/Leon406/Sub/master/sub/share/ssr', verify=False)
+#     ssrTxt = requests.request(
+#         "GET", 'https://raw.fastgit.org/Leon406/Sub/master/sub/share/ssr', verify=False)
 
-    print(v2rayList)
+#     print(v2rayList)
     print(clashList)
-    print(ssrTxt)
+#     print(ssrTxt)
     dirs = './subscribe'
     if not os.path.exists(dirs):
         os.makedirs(dirs)
-    with open(dirs + '/v2ray.txt', 'w') as f:
-        f.write(v2rayTxt.text)
+#     with open(dirs + '/v2ray.txt', 'w') as f:
+#         f.write(v2rayTxt.text)
     day = time.strftime('%Y.%m.%d',time.localtime(time.time()))
-    with open(dirs + '/clash.yml', 'w') as f:
+    with open(dirs + '/vmess.txt', 'w') as f:
         f.write(clashTxt.text.replace('https://www.mattkaydiary.com',day))        
-    with open(dirs + '/ssr.txt', 'w') as f:
-        f.write(ssrTxt.text.replace('https://www.mattkaydiary.com',day))
+#     with open(dirs + '/ssr.txt', 'w') as f:
+#         f.write(ssrTxt.text.replace('https://www.mattkaydiary.com',day))
 #         f.write(clashTxt.text.replace('https://www.mattkaydiary.com','仅供学习，请24小时内删除'))
 
 
