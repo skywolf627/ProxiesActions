@@ -39,7 +39,7 @@ jobs:
       # env:
       #   CONFIG: ${{ secrets.CONFIG }}
       run: |
-        python main copy.py
+        python main2.py
       #   echo "$CONFIG" > ./config.json
          # 使用云开发 Github Action 部署
          
