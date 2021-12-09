@@ -22,7 +22,7 @@ jobs:
     - name: 安装Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.6.5'
+        python-version: '3.6.7'
     - name: 加载缓存  
       uses: actions/cache@v2
       with:
