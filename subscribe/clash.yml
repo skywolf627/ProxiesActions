@@ -63,7 +63,7 @@ proxy-groups:
 proxy-providers:
   all:
     type: http
-    url: "https://raw.githubusercontent.com/skywolf627/VmessActions/main/subscribe/vmess.txt"
+    url: "https://raw.githubusercontent.com/bogy4218/VmessActions/main/subscribe/vmess.txt"
     path: skywolf627.github.io/provider-all.yaml
     interval: 43200
     health-check:
