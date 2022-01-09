@@ -79,7 +79,7 @@ def getSubscribeUrl():
 #         f.write(v2rayTxt.text)
     day = time.strftime('%Y.%m.%d',time.localtime(time.time()))
     with open(dirs + '/vmess.txt', 'w') as f:
-        f.write(clashTxt.text.replace('https://www.mattkaydiary.com',day))        
+        f.write(clashTxt.text.replace('mattkaydiary.com',day))  
 #     with open(dirs + '/ssr.txt', 'w') as f:
 #         f.write(ssrTxt.text.replace('https://www.mattkaydiary.com',day))
 #         f.write(clashTxt.text.replace('https://www.mattkaydiary.com','仅供学习，请24小时内删除'))
