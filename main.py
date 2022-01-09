@@ -39,7 +39,7 @@ def savePoint(url, name):
         if not os.path.exists(dirs):
             os.makedirs(dirs)
         with open(dirs + '/' + name, 'w', encoding='utf-8') as f:
-            f.write(resp.text.replace('"name":"','"name":"'+ day+'_'))
+            f.write(resp.text.replace('mattkaydiary.com', day))
             print(name+'生成成功')
 
 
