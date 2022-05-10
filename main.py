@@ -35,8 +35,10 @@ def savePoint(url, name):
     resp = requests.get(url)
     dirs = './subscribe'
     day = time.strftime('%Y.%m.%d', time.localtime(time.time()))
-    logging.info('采集结果：' + resp.text.encode('utf-8'))
-    result = base64.b64decode(resp.text.encode('utf-8'))
+  
+    result = str(base64.b64decode(resp.text.encode('utf-8')))
+    result = result.replace('\'','').replace('\\n','\n').replace('bvmess','vmess')
+    logging.info('采集结果：' +result)
     #if 'proxies' in result:
     if not os.path.exists(dirs):
         os.makedirs(dirs)
