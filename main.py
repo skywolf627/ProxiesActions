@@ -8,7 +8,7 @@ import os
 import random
 import datetime
 import utils
-# import base64
+import base64
 
 
 def main(event, context):
@@ -35,12 +35,13 @@ def savePoint(url, name):
     resp = requests.get(url)
     dirs = './subscribe'
     day = time.strftime('%Y.%m.%d', time.localtime(time.time()))
-    if 'proxies' in resp.text:
-        if not os.path.exists(dirs):
-            os.makedirs(dirs)
-        with open(dirs + '/' + name, 'w', encoding='utf-8') as f:
-            f.write(resp.text.replace('mattkaydiary.com', day))
-            print(name+'生成成功')
+    result = base64.b64encode(resp.text.encode('utf-8'))
+    #if 'proxies' in result:
+    if not os.path.exists(dirs):
+        os.makedirs(dirs)
+    with open(dirs + '/' + name, 'w', encoding='utf-8') as f:
+        f.write(result)
+        print(name+'生成成功')
 
 
 # 主函数入口
